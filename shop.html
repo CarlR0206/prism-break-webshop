@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Prism Break</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Zum Hauptinhalt springen</a>
+
+  <header>
+    <nav class="navbar" aria-label="Hauptnavigation">
+      <div class="logo">Prism Break</div>
+
+      <ul>
+        <li><a class="nav-red" href="index.html">Start</a></li>
+        <li><a class="nav-orange" href="shop.html">Shop</a></li>
+        <li><a class="nav-yellow" href="about.html">About us</a></li>
+        <li><a class="nav-green" href="accessibility.html">Barrierefreiheit</a></li>
+        <li><a class="nav-blue" href="privacy.html">Datenschutz</a></li>
+        <li><a class="nav-purple" href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="features">
+      <h1>Webshop</h1>
+      <p>
+        Willkommen im Prism Break Webshop. Hier können Schulen, Lehrpersonen,
+        private Nutzerinnen und Nutzer sowie Game Developer passende Produkte auswählen.
+      </p>
+
+      <h2>Unsere Produkte</h2>
+
+      <div class="card-grid">
+        <article class="card">
+          <h3>Light Lab School</h3>
+          <p>
+            Abo für Schulen und Lehrpersonen. Enthält den Lernmodus,
+            Klassenverwaltung und vorbereitete Aufgaben zu Licht, Reflexion und Farben.
+          </p>
+          <p><strong>19,99 € pro Monat</strong></p>
+          <a class="button" href="#cart">In den Warenkorb</a>
+        </article>
+
+        <article class="card">
+          <h3>Light Lab Map Editor</h3>
+          <p>
+            Zusatzabo zum Erstellen eigener Karten und Aufgaben.
+            Nutzerinnen und Nutzer können eigene Level gestalten und speichern.
+          </p>
+          <p><strong>4,99 € pro Monat</strong></p>
+          <a class="button" href="#cart">In den Warenkorb</a>
+        </article>
+
+        <article class="card">
+          <h3>DLC Map Pack: Reflection Basics</h3>
+          <p>
+            Zusätzliches Aufgabenpaket mit neuen Rätseln zu Spiegeln,
+            Reflexionswinkeln und Lichtwegen.
+          </p>
+          <p><strong>7,99 € einmalig</strong></p>
+          <a class="button" href="#cart">In den Warenkorb</a>
+        </article>
+
+        <article class="card">
+          <h3>Light Logic Engine</h3>
+          <p>
+            Lizenzmodell für Game Developer, die unsere Lichtsimulationssoftware
+            in eigene Spiele oder Anwendungen integrieren möchten.
+          </p>
+          <p><strong>Preis auf Anfrage</strong></p>
+          <a class="button" href="contact.html">Anfrage senden</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="features" id="cart">
+      <h2>Warenkorb</h2>
+      <p>
+        Dies ist ein gemockter Warenkorb für das Studienprojekt.
+        Es wird kein echter Kauf durchgeführt.
+      </p>
+
+      <div class="card-grid">
+        <article class="card">
+          <h3>Ausgewählte Produkte</h3>
+          <p>Light Lab School Abo</p>
+          <p>Light Lab Map Editor</p>
+          <p><strong>Zwischensumme: 24,98 € pro Monat</strong></p>
+          <a class="button" href="#checkout">Zur Kasse</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="features" id="checkout">
+      <h2>Mock-Checkout</h2>
+      <p>
+        Das folgende Formular simuliert einen Bestellprozess.
+        Die eingegebenen Daten werden nicht wirklich gespeichert oder versendet.
+      </p>
+
+      <form action="#" method="post" class="card">
+        <div>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" placeholder="Max Mustermann">
+        </div>
+
+        <br>
+
+        <div>
+          <label for="email">E-Mail-Adresse</label><br>
+          <input type="email" id="email" name="email" placeholder="max@example.com">
+        </div>
+
+        <br>
+
+        <div>
+          <label for="product">Produkt auswählen</label><br>
+          <select id="product" name="product">
+            <option>Light Lab School Abo</option>
+            <option>Light Lab Map Editor</option>
+            <option>DLC Map Pack</option>
+            <option>Light Logic Engine Anfrage</option>
+          </select>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="message">Zusätzliche Nachricht</label><br>
+          <textarea id="message" name="message" rows="5" placeholder="Ihre Nachricht"></textarea>
+        </div>
+
+        <br>
+
+        <button class="button" type="submit">Bestellung simulieren</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Prism Break GmbH - Studienprojekt</p>
+    <p>
+      <a href="imprint.html">Impressum</a> |
+      <a href="privacy.html">Datenschutz</a> |
+      <a href="accessibility.html">Barrierefreiheit</a> |
+      <a href="license.html">Lizenz</a> |
+      <a href="copyright.html">Urheberrecht</a>
+    </p>
+  </footer>
+</body>
+</html>
